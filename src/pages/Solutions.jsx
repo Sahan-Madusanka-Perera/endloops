@@ -94,14 +94,11 @@ function Explorer() {
   const { hash } = useLocation()
   const [active, setActive] = useState(0)
   const tabsRef = useRef([])
-  const sectionRef = useRef(null)
 
   useEffect(() => {
+    // Selects the linked solution; the layout scrolls to its anchor.
     const i = solutions.findIndex((s) => `#${s.slug}` === hash)
-    if (i >= 0) {
-      setActive(i)
-      sectionRef.current?.scrollIntoView({ block: 'start' })
-    }
+    if (i >= 0) setActive(i)
   }, [hash])
 
   const onKey = (e) => {
@@ -121,7 +118,7 @@ function Explorer() {
   const s = solutions[active]
 
   return (
-    <section ref={sectionRef} id="explorer" className="scroll-mt-24 border-t border-rule bg-mist py-20 md:py-28" aria-labelledby="explorer-title">
+    <section id="explorer" className="scroll-mt-24 border-t border-rule bg-mist py-20 md:py-28" aria-labelledby="explorer-title">
       {solutions.map((x) => (
         <span key={x.slug} id={x.slug} className="block scroll-mt-24" aria-hidden="true" />
       ))}

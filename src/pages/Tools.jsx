@@ -69,12 +69,8 @@ function ToolIndex() {
   const shown = filter === 'all' ? tools : tools.filter((t) => t.uses.includes(filter))
 
   useEffect(() => {
-    if (!hash) return
-    const el = document.getElementById(hash.slice(1))
-    if (el && tools.some((t) => `#${t.slug}` === hash)) {
-      setFilter('all')
-      requestAnimationFrame(() => el.scrollIntoView({ block: 'center' }))
-    }
+    // A linked tool must be visible, so clear any filter; the layout scrolls to it.
+    if (tools.some((t) => `#${t.slug}` === hash)) setFilter('all')
   }, [hash])
 
   return (

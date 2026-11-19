@@ -245,25 +245,40 @@ export default function GuillocheCanvas({ className = '', layout = () => ({ x: 0
     }
 
     // Full frame rate while the rosette draws in or follows the pointer; the slow idle drift
-    // only needs ~30fps. Measures the first 1.5s and halves the pixel load if frames run long.
+    // only needs ~30fps. A one-off speed check halves the pixel load on slow GPUs. It times
+    // only frames that were really delivered: it starts after half a second of running, and any
+    // stall over 100ms (background or occluded tab, paused loop) restarts it, so a page opened
+    // in a background tab is never mistaken for a slow device.
     let lastDraw = 0
-    let frames = 0
+    let lastTick = 0
+    let probeStart = 0
+    let probeFrames = 0
     let checked = false
+    function probe(now) {
+      if (checked) return
+      if (!lastTick || now - lastTick > 100) {
+        probeStart = now + 500
+        probeFrames = 0
+      } else if (now >= probeStart) {
+        probeFrames++
+        const span = now - probeStart
+        if (span > 1500) {
+          checked = true
+          if (span / probeFrames > 40 && dpr > 1) {
+            dpr = 1
+            resize()
+          }
+        }
+      }
+      lastTick = now
+    }
     function loop(now) {
       const busy = now - start < 2600 || mouse.tAmt > 0 || mouse.amt > 0.02
       if (busy || now - lastDraw > 30) {
         draw(now)
         lastDraw = now
-        frames++
       }
-      if (now - start < 1000) frames = 0 // ignore warm-up frames (fonts, first paint)
-      if (!checked && now - start > 2500) {
-        checked = true
-        if (1500 / frames > 40 && dpr > 1) {
-          dpr = 1
-          resize()
-        }
-      }
+      probe(now)
       raf = requestAnimationFrame(loop)
     }
 
@@ -274,6 +289,7 @@ export default function GuillocheCanvas({ className = '', layout = () => ({ x: 0
     }
     const pause = () => {
       running = false
+      lastTick = 0
       cancelAnimationFrame(raf)
     }
 

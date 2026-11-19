@@ -395,7 +395,7 @@ function Half({ to, tone, title, line, visual, col, items, cta }) {
 
 function DemoSection() {
   return (
-    <section id="demo" className="relative overflow-clip bg-navy py-20 md:py-28" aria-labelledby="demo-title">
+    <section id="demo" className="relative scroll-mt-[4.5rem] overflow-clip bg-navy py-20 md:py-28" aria-labelledby="demo-title">
       <Seal className="pointer-events-none absolute -top-64 -right-64 w-[44rem] text-teal/20" count={22} strokeWidth={0.6} />
       <div className="shell relative">
         <SectionHead
