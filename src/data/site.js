@@ -1,0 +1,40 @@
+// The file index: every page is a divider with its own letter and ink.
+export const sections = [
+  { letter: 'A', to: '/', label: 'Home', title: 'Index', ink: 'bg-ink', text: 'text-ink', line: 'Index' },
+  {
+    letter: 'B',
+    to: '/solutions',
+    label: 'Solutions',
+    title: 'End-to-end solutions',
+    ink: 'bg-green-ink',
+    text: 'text-green-ink',
+    line: 'Whole processes, start to finish',
+  },
+  {
+    letter: 'C',
+    to: '/tools',
+    label: 'Tools',
+    title: 'Standalone tools',
+    ink: 'bg-blue',
+    text: 'text-blue-ink',
+    line: 'One task, done thoroughly',
+  },
+  {
+    letter: 'D',
+    to: '/about',
+    label: 'About',
+    title: 'About Endloops',
+    ink: 'bg-purple',
+    text: 'text-purple-ink',
+    line: 'Built inside an audit firm',
+  },
+  {
+    letter: 'E',
+    to: '/contact',
+    label: 'Contact',
+    title: 'Talk to us',
+    ink: 'bg-teal',
+    text: 'text-teal-ink',
+    line: 'Request a demo',
+  },
+]

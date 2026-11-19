@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T14:21:08.347992+00:00",
+  "title": "Design System: Endloops",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Security Paper",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#f4f7f6",
+        "oklch": "oklch(97.4% 0.003 174)",
+        "tonalRamp": [
+          "#0a0c0b",
+          "#232625",
+          "#404342",
+          "#5f6261",
+          "#808382",
+          "#a3a6a5",
+          "#c7cac9",
+          "#ecefee"
+        ]
+      },
+      "mist-2": {
+        "role": "neutral",
+        "displayName": "Deep Mist",
+        "canonical": "#eaf0ee",
+        "oklch": "oklch(95.0% 0.007 174)",
+        "tonalRamp": [
+          "#080c0b",
+          "#222625",
+          "#3e4342",
+          "#5d6361",
+          "#7e8482",
+          "#a1a6a5",
+          "#c5cbc9",
+          "#eaf0ee"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Ledger Navy Ink",
+        "canonical": "#141c2e",
+        "oklch": "oklch(22.8% 0.037 265)",
+        "tonalRamp": [
+          "#050a1a",
+          "#1c2537",
+          "#394254",
+          "#596174",
+          "#7a8294",
+          "#9da5b6",
+          "#c2c9d9",
+          "#e8effd"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#465166",
+        "oklch": "oklch(43.4% 0.038 263)",
+        "tonalRamp": [
+          "#050b18",
+          "#1c2536",
+          "#384256",
+          "#566176",
+          "#788397",
+          "#9ba5b9",
+          "#c0cadc",
+          "#e5efff"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Pale Slate",
+        "canonical": "#5f697c",
+        "oklch": "oklch(51.9% 0.032 263)",
+        "tonalRamp": [
+          "#060b16",
+          "#1e2533",
+          "#3a4252",
+          "#586174",
+          "#798395",
+          "#9ca5b8",
+          "#c0cadb",
+          "#e6efff"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "#e1e6ea",
+        "oklch": "oklch(92.2% 0.008 242)",
+        "tonalRamp": [
+          "#080c0e",
+          "#222628",
+          "#3f4346",
+          "#5e6265",
+          "#7e8387",
+          "#a1a6a9",
+          "#c5cace",
+          "#eaeff3"
+        ]
+      },
+      "rule-2": {
+        "role": "neutral",
+        "displayName": "Firm Rule",
+        "canonical": "#cfd6dc",
+        "oklch": "oklch(87.2% 0.011 244)",
+        "tonalRamp": [
+          "#070c10",
+          "#21262a",
+          "#3d4348",
+          "#5c6267",
+          "#7d8389",
+          "#9fa6ac",
+          "#c3cad0",
+          "#e8eff6"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Logo Green",
+        "canonical": "#08ab66",
+        "oklch": "oklch(65.2% 0.156 156)",
+        "tonalRamp": [
+          "#001500",
+          "#003406",
+          "#005521",
+          "#00773d",
+          "#009c5a",
+          "#3fc07d",
+          "#74e4a3",
+          "#a3ffcb"
+        ]
+      },
+      "green-ink": {
+        "role": "primary",
+        "displayName": "Ledger Green",
+        "canonical": "#067a4a",
+        "oklch": "oklch(51.1% 0.119 157)",
+        "tonalRamp": [
+          "#001400",
+          "#00320e",
+          "#005229",
+          "#007445",
+          "#3d9667",
+          "#69b98b",
+          "#93dcb1",
+          "#bdffd7"
+        ]
+      },
+      "green-wash": {
+        "role": "primary",
+        "displayName": "Green Wash",
+        "canonical": "#e6f6ee",
+        "oklch": "oklch(95.9% 0.020 165)",
+        "tonalRamp": [
+          "#040e09",
+          "#1c2823",
+          "#38453f",
+          "#57655e",
+          "#78867f",
+          "#9aa9a2",
+          "#becdc6",
+          "#e3f3eb"
+        ]
+      },
+      "teal": {
+        "role": "secondary",
+        "displayName": "Reviewer Teal",
+        "canonical": "#0c847a",
+        "oklch": "oklch(55.3% 0.095 185)",
+        "tonalRamp": [
+          "#00130f",
+          "#00302a",
+          "#005048",
+          "#007268",
+          "#30948a",
+          "#60b7ac",
+          "#8cdad0",
+          "#b7fff5"
+        ]
+      },
+      "teal-ink": {
+        "role": "secondary",
+        "displayName": "Deep Teal",
+        "canonical": "#0a6b63",
+        "oklch": "oklch(47.6% 0.081 186)",
+        "tonalRamp": [
+          "#00130f",
+          "#002f2a",
+          "#004f48",
+          "#167068",
+          "#489189",
+          "#71b4ab",
+          "#9ad7cf",
+          "#c3fcf4"
+        ]
+      },
+      "teal-wash": {
+        "role": "secondary",
+        "displayName": "Teal Wash",
+        "canonical": "#e3f2f0",
+        "oklch": "oklch(94.9% 0.016 187)",
+        "tonalRamp": [
+          "#040d0c",
+          "#1c2826",
+          "#394543",
+          "#576463",
+          "#788684",
+          "#9aa8a7",
+          "#becdcb",
+          "#e3f2f0"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Ruling Blue",
+        "canonical": "#2f5bea",
+        "oklch": "oklch(53.3% 0.221 266)",
+        "tonalRamp": [
+          "#090052",
+          "#06007d",
+          "#102baa",
+          "#264fd9",
+          "#4575ff",
+          "#6a9cff",
+          "#91c3ff",
+          "#baebff"
+        ]
+      },
+      "blue-ink": {
+        "role": "secondary",
+        "displayName": "Deep Ruling Blue",
+        "canonical": "#2449c7",
+        "oklch": "oklch(46.6% 0.200 266)",
+        "tonalRamp": [
+          "#08004e",
+          "#050378",
+          "#132ea4",
+          "#2c53cf",
+          "#4e79ee",
+          "#729fff",
+          "#99c5ff",
+          "#c2ecff"
+        ]
+      },
+      "blue-wash": {
+        "role": "secondary",
+        "displayName": "Blue Wash",
+        "canonical": "#e9eefd",
+        "oklch": "oklch(95.0% 0.021 271)",
+        "tonalRamp": [
+          "#090b10",
+          "#23252b",
+          "#3f424a",
+          "#5e616a",
+          "#7e828d",
+          "#a1a5b1",
+          "#c4c9d6",
+          "#e9eefd"
+        ]
+      },
+      "purple": {
+        "role": "tertiary",
+        "displayName": "Judgement Purple",
+        "canonical": "#6a4cd8",
+        "oklch": "oklch(52.9% 0.203 287)",
+        "tonalRamp": [
+          "#140048",
+          "#290071",
+          "#431e9c",
+          "#6041c9",
+          "#7f68ee",
+          "#a08fff",
+          "#c3b6ff",
+          "#e8deff"
+        ]
+      },
+      "purple-ink": {
+        "role": "tertiary",
+        "displayName": "Deep Judgement Purple",
+        "canonical": "#5638c0",
+        "oklch": "oklch(46.3% 0.199 286)",
+        "tonalRamp": [
+          "#14004a",
+          "#280074",
+          "#411d9f",
+          "#5e43c8",
+          "#7c6be8",
+          "#9d92ff",
+          "#c1b9ff",
+          "#e6e0ff"
+        ]
+      },
+      "purple-wash": {
+        "role": "tertiary",
+        "displayName": "Purple Wash",
+        "canonical": "#efebfb",
+        "oklch": "oklch(94.8% 0.022 297)",
+        "tonalRamp": [
+          "#0c0a0f",
+          "#26242b",
+          "#434049",
+          "#625f69",
+          "#83808c",
+          "#a6a3b0",
+          "#cac7d5",
+          "#f0ecfc"
+        ]
+      },
+      "navy": {
+        "role": "neutral",
+        "displayName": "Night File",
+        "canonical": "#0d1424",
+        "oklch": "oklch(19.3% 0.034 265)",
+        "tonalRamp": [
+          "#050a19",
+          "#1d2535",
+          "#3a4253",
+          "#596172",
+          "#7b8292",
+          "#9ea5b4",
+          "#c2c9d7",
+          "#e8effc"
+        ]
+      },
+      "navy-text": {
+        "role": "neutral",
+        "displayName": "Night Text",
+        "canonical": "#b9c2d6",
+        "oklch": "oklch(81.3% 0.030 266)",
+        "tonalRamp": [
+          "#080b13",
+          "#20252f",
+          "#3c424e",
+          "#5b616f",
+          "#7b8293",
+          "#9da5b7",
+          "#c0c9dd",
+          "#e6efff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page titles only: Home hero and divider sheet h1. Archivo at 112% width."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s and the closing panel heading. Archivo at 108% width."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card, capability, product and principle names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, measures capped at 44-62ch."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Nav, footer, table cells, list items."
+      },
+      "label": {
+        "displayName": "Reference",
+        "purpose": "Mono reference codes, tab letters, product refs. Never sentences."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lifted-slip",
+        "value": "0 30px 60px -28px rgba(13,20,36,0.45), 0 2px 6px -2px rgba(13,20,36,0.12)",
+        "purpose": "A loose sheet resting on the file; the hero slip."
+      },
+      {
+        "name": "paper-card",
+        "value": "0 8px 18px -14px rgba(13,20,36,0.5)",
+        "purpose": "Small paper objects in illustrations and the selected list row."
+      },
+      {
+        "name": "ink-button",
+        "value": "0 1px 0 rgba(255,255,255,0.12) inset, 0 10px 24px -12px rgba(13,20,36,0.55)",
+        "purpose": "Primary button only."
+      },
+      {
+        "name": "scrolled-header",
+        "value": "0 1px 0 var(--color-rule), 0 8px 24px -20px rgba(13,20,36,0.35)",
+        "purpose": "Header after 8px of scroll."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-file",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "The single easing for every transition, keyframe and motion reveal."
+      },
+      {
+        "name": "hero-rise",
+        "value": "rise 0.9s ease-file, translateY(var(--rise-y, 22px)) to 0, staggered via --d",
+        "purpose": "Hero and divider-sheet text entrance, CSS keyframes on the compositor."
+      },
+      {
+        "name": "hero-draw",
+        "value": "draw 0.8s ease-file, stroke-dashoffset 1 to 0",
+        "purpose": "Drawn underline and strokes in the hero."
+      },
+      {
+        "name": "slip-in",
+        "value": "slip-in 1s ease-file, translateY(40px) rotate(3deg) to rotate(-1.5deg)",
+        "purpose": "The prepared slip settling onto the hero."
+      },
+      {
+        "name": "scroll-reveal",
+        "value": "opacity 0.3 to 1, y 18px to 0, 0.7s ease-file, once, viewport margin -12% bottom",
+        "purpose": "Scroll reveals via motion; content is legible before it moves."
+      },
+      {
+        "name": "state",
+        "value": "200-300ms ease-file",
+        "purpose": "Hover, ring and colour state changes; press scales to 0.98."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Navy ink pill; the main call to action, usually Request a demo with a drawn arrow.",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><span>Request a demo</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13.5 6.5L19 12l-5.5 5.5\"/></svg></button>",
+      "css": ".ds-btn{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); display:inline-flex; align-items:center; gap:10px; height:44px; padding:0 20px; border:none; border-radius:9999px; font-size:0.9375rem; font-weight:500; cursor:pointer; transition:background-color .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1)), box-shadow .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1)), transform .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1));} .ds-btn:active{transform:scale(0.98);} .ds-btn:focus-visible{outline:2px solid var(--color-blue,#2f5bea); outline-offset:4px;} .ds-btn svg{margin-right:-4px; transition:transform .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1));} .ds-btn:hover svg{transform:translateX(2px);} .ds-btn-primary{background:var(--color-ink,#141c2e); color:#fff; box-shadow:0 1px 0 rgba(255,255,255,0.12) inset, 0 10px 24px -12px rgba(13,20,36,0.55);} .ds-btn-primary:hover{background:#1f2a44;}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action on paper; hairline ring that turns navy on hover.",
+      "html": "<button class=\"ds-btn ds-btn-outline\">Watch a sample run</button>",
+      "css": ".ds-btn{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); display:inline-flex; align-items:center; gap:10px; height:44px; padding:0 20px; border:none; border-radius:9999px; font-size:0.9375rem; font-weight:500; cursor:pointer; transition:background-color .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1)), box-shadow .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1)), transform .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1));} .ds-btn:active{transform:scale(0.98);} .ds-btn:focus-visible{outline:2px solid var(--color-blue,#2f5bea); outline-offset:4px;} .ds-btn svg{margin-right:-4px; transition:transform .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1));} .ds-btn:hover svg{transform:translateX(2px);} .ds-btn-outline{background:transparent; color:var(--color-ink,#141c2e); box-shadow:inset 0 0 0 1px var(--color-rule-2,#cfd6dc);} .ds-btn-outline:hover{background:#fff; box-shadow:inset 0 0 0 1px var(--color-ink,#141c2e);}"
+    },
+    {
+      "name": "Light Button on Navy",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "White pill used on the navy closing panel.",
+      "html": "<div class=\"ds-navy-wrap\"><button class=\"ds-btn ds-btn-light\"><span>Request a demo</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13.5 6.5L19 12l-5.5 5.5\"/></svg></button></div>",
+      "css": ".ds-btn{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); display:inline-flex; align-items:center; gap:10px; height:44px; padding:0 20px; border:none; border-radius:9999px; font-size:0.9375rem; font-weight:500; cursor:pointer; transition:background-color .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1)), box-shadow .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1)), transform .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1));} .ds-btn:active{transform:scale(0.98);} .ds-btn:focus-visible{outline:2px solid var(--color-blue,#2f5bea); outline-offset:4px;} .ds-btn svg{margin-right:-4px; transition:transform .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1));} .ds-btn:hover svg{transform:translateX(2px);} .ds-navy-wrap{background:var(--color-navy,#0d1424); padding:24px; border-radius:1.25rem;} .ds-btn-light{height:52px; padding:0 28px; font-size:1rem; background:#fff; color:var(--color-ink,#141c2e); box-shadow:0 10px 24px -14px rgba(0,0,0,0.6);} .ds-btn-light:hover{background:var(--color-mist,#f4f7f6);}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "48px white field with hairline inset ring; blue 2px ring on focus, purple on error.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Work email</span><input class=\"ds-input\" placeholder=\"name@firm.com\"/></label>",
+      "css": ".ds-field{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); display:block; color:var(--color-ink,#141c2e); font-weight:500; font-size:0.9375rem;} .ds-input{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); margin-top:8px; display:block; box-sizing:border-box; width:100%; height:48px; padding:0 16px; border:none; border-radius:8px; background:#fff; color:var(--color-ink,#141c2e); font-size:1rem; box-shadow:inset 0 0 0 1px var(--color-rule-2,#cfd6dc); transition:box-shadow .2s;} .ds-input::placeholder{color:var(--color-ink-3,#5f697c);} .ds-input:hover{box-shadow:inset 0 0 0 1px var(--color-ink-3,#5f697c);} .ds-input:focus{outline:none; box-shadow:inset 0 0 0 2px var(--color-blue,#2f5bea);}"
+    },
+    {
+      "name": "Interest Chip",
+      "kind": "chip",
+      "refersTo": "chip-interest",
+      "description": "Toggle pill in the contact form; solid navy when selected.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\">Escrow audit</button><button class=\"ds-chip ds-chip-on\" aria-pressed=\"true\">Vouching automation</button></div>",
+      "css": ".ds-chips{display:flex; gap:8px; flex-wrap:wrap;} .ds-chip{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); height:40px; padding:0 16px; border:none; border-radius:9999px; background:transparent; color:var(--color-ink-2,#465166); font-size:0.875rem; font-weight:500; box-shadow:inset 0 0 0 1px var(--color-rule-2,#cfd6dc); cursor:pointer; transition:color .2s, box-shadow .2s, background-color .2s;} .ds-chip:hover{color:var(--color-ink,#141c2e); box-shadow:inset 0 0 0 1px var(--color-ink-3,#5f697c);} .ds-chip:focus-visible{outline:none; box-shadow:inset 0 0 0 2px var(--color-blue,#2f5bea);} .ds-chip-on{background:var(--color-ink,#141c2e); color:#fff; box-shadow:inset 0 0 0 1px var(--color-ink,#141c2e);}"
+    },
+    {
+      "name": "Index Tab Navigation",
+      "kind": "nav",
+      "refersTo": "index-tab",
+      "description": "Desktop nav: lettered solid-ink tabs beside labels; the active item gets a 3px bar in its ink.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-item ds-active\" href=\"#\"><span class=\"ds-tab\" style=\"background:#067a4a\">B</span>Solutions<span class=\"ds-bar\" style=\"background:#067a4a\"></span></a><a class=\"ds-nav-item\" href=\"#\"><span class=\"ds-tab\" style=\"background:#2f5bea\">C</span>Tools</a><a class=\"ds-nav-item\" href=\"#\"><span class=\"ds-tab\" style=\"background:#6a4cd8\">D</span>About</a><a class=\"ds-nav-item\" href=\"#\"><span class=\"ds-tab\" style=\"background:#0c847a\">E</span>Contact</a></nav>",
+      "css": ".ds-nav{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); display:flex; gap:4px; height:72px; align-items:stretch; background:#fff;} .ds-nav-item{position:relative; display:flex; align-items:center; gap:8px; padding:0 14px; color:var(--color-ink-2,#465166); font-size:0.9375rem; font-weight:500; text-decoration:none; transition:color .2s;} .ds-nav-item:hover,.ds-active{color:var(--color-ink,#141c2e);} .ds-nav-item:focus-visible{outline:2px solid var(--color-blue,#2f5bea); outline-offset:3px; border-radius:4px;} .ds-tab{font-family: var(--font-mono, 'Azeret Mono Variable', ui-monospace, monospace); display:grid; place-items:center; width:20px; height:20px; border-radius:4px; color:#fff; font-size:0.6875rem; font-weight:500; transition:transform .3s var(--ease-file, cubic-bezier(0.22,1,0.36,1));} .ds-nav-item:hover .ds-tab,.ds-active .ds-tab{transform:translateY(-2px);} .ds-bar{position:absolute; left:12px; right:12px; bottom:0; height:3px; border-radius:9999px 9999px 0 0;}"
+    },
+    {
+      "name": "Section Head with Margin Reference",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Working-paper section head: mono reference in the 7rem margin column (md+ only), headline and intro in the content column.",
+      "html": "<div class=\"ds-shead\"><p class=\"ds-ref\">A1</p><div><h2 class=\"ds-h2\">The software prepares. You decide.</h2><p class=\"ds-intro\">Endloops takes the repetitive part and leaves the judgement with you.</p></div></div>",
+      "css": ".ds-shead{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); display:grid; grid-template-columns:1fr;} @media (min-width:768px){.ds-shead{grid-template-columns:7rem 1fr;}} .ds-ref{font-family: var(--font-mono, 'Azeret Mono Variable', ui-monospace, monospace); display:none; margin:0; padding-top:12px; font-size:0.75rem; font-weight:500; letter-spacing:0.02em; color:var(--color-ink-3,#5f697c);} @media (min-width:768px){.ds-ref{display:block;}} .ds-h2{margin:0; font-size:2.6rem; font-weight:620; font-stretch:108%; letter-spacing:-0.024em; line-height:1.06; color:var(--color-ink,#141c2e);} .ds-intro{margin:20px 0 0; max-width:62ch; font-size:1.125rem; line-height:1.625; color:var(--color-ink-2,#465166);}"
+    },
+    {
+      "name": "Divider Sheet",
+      "kind": "custom",
+      "refersTo": "divider-sheet",
+      "description": "Inner-page hero: solid ink field, letter tab (corner-pinned white square on phones, translucent in the margin from md), display title.",
+      "html": "<section class=\"ds-divider\"><span class=\"ds-dtab\">C</span><div><h1 class=\"ds-dtitle\">Standalone tools</h1><p class=\"ds-dsub\">One task, done thoroughly.</p></div></section>",
+      "css": ".ds-divider{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); position:relative; display:grid; padding:80px 24px 48px; border-radius:1.25rem; background:var(--color-blue,#2f5bea); color:#fff; overflow:clip;} @media (min-width:768px){.ds-divider{grid-template-columns:7rem 1fr; padding:64px 40px 80px;}} .ds-dtab{font-family: var(--font-mono, 'Azeret Mono Variable', ui-monospace, monospace); position:absolute; top:24px; right:24px; display:grid; place-items:center; width:44px; height:44px; border-radius:8px; background:#fff; color:var(--color-blue-ink,#2449c7); font-size:1.25rem; font-weight:500; box-shadow:0 6px 16px -8px rgba(13,20,36,0.45);} @media (min-width:768px){.ds-dtab{position:static; width:56px; height:56px; border-radius:12px; background:rgba(255,255,255,0.15); color:#fff; font-size:1.5rem; box-shadow:inset 0 0 0 1px rgba(255,255,255,0.3);}} .ds-dtitle{margin:0; font-size:3.6rem; font-weight:640; font-stretch:112%; letter-spacing:-0.032em; line-height:0.98;} .ds-dsub{margin:24px 0 0; font-size:1.25rem; line-height:1.625;}"
+    },
+    {
+      "name": "Prepared Slip with Sign-off",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Sample schedule card: ruled tabular rows led by auditor's marks, double closing rule, Prepared by / Reviewed by sign-off.",
+      "html": "<div class=\"ds-slip\"><div class=\"ds-slip-head\"><div><p class=\"ds-slip-ref\">C2 · Q3 payables</p><p class=\"ds-slip-title\">Vouching schedule</p></div><span class=\"ds-sample\">Sample</span></div><ul class=\"ds-rows\"><li><span><i style=\"color:#067a4a\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12.8l4.6 4.7L20.5 5.2\"/></svg></i>Agreed to invoice</span><b>241</b></li><li><span><i style=\"color:#2f5bea\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"7.5\"/><path d=\"M12 7.5v9M7.5 12h9\"/></svg></i>Cast to ledger</span><b>248</b></li><li><span><i style=\"color:#5638c0\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5l8.5 8.5-8.5 8.5L3.5 12z\"/><path d=\"M12 8.2v4.6M12 15.9v.1\"/></svg></i>Flagged for you</span><b>7</b></li></ul><div class=\"ds-sign\"><div><p>Prepared by</p><b>Endloops</b></div><div><p>Reviewed by</p><b style=\"color:#5638c0\">Awaiting you</b></div></div></div>",
+      "css": ".ds-slip{font-family: var(--font-sans, 'Archivo Variable', ui-sans-serif, system-ui, sans-serif); width:21rem; padding:20px; border-radius:12px; background:#fff; color:var(--color-ink,#141c2e); box-shadow:0 0 0 1px var(--color-rule,#e1e6ea), 0 30px 60px -28px rgba(13,20,36,0.45), 0 2px 6px -2px rgba(13,20,36,0.12);} .ds-slip-head{display:flex; justify-content:space-between; align-items:flex-start; padding-bottom:12px; border-bottom:2px solid var(--color-ink,#141c2e);} .ds-slip-ref{font-family: var(--font-mono, 'Azeret Mono Variable', ui-monospace, monospace); margin:0; font-size:0.75rem; font-weight:500; letter-spacing:0.02em; color:var(--color-ink-3,#5f697c);} .ds-slip-title{margin:4px 0 0; font-weight:600;} .ds-sample{padding:4px 10px; border-radius:9999px; background:var(--color-mist,#f4f7f6); color:var(--color-ink-3,#5f697c); font-size:0.6875rem; font-weight:500;} .ds-rows{list-style:none; margin:0; padding:0; font-size:0.875rem; font-variant-numeric:tabular-nums lining-nums;} .ds-rows li{display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid var(--color-rule,#e1e6ea);} .ds-rows li:last-child{border-bottom:none;} .ds-rows span{display:flex; align-items:center; gap:10px; color:var(--color-ink-2,#465166);} .ds-rows i{display:grid; place-items:center;} .ds-sign{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:4px; padding-top:12px; border-top:3px double var(--color-ink,#141c2e); font-size:0.75rem;} .ds-sign p{margin:0; color:var(--color-ink-3,#5f697c);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Audit File",
+    "overview": "The site is an audit file on security paper. Every page is a divider in that file with its own letter and its own ink (A Home, B Solutions, C Tools, D About, E Contact). Sections inside a page carry working-paper references (A1, A2, A4.3) set in a mono face in a left margin column, the way an index sits in the margin of a working paper. Figures sit on ruled lines in tabular numerals, closed by a heavy rule above and a double rule below. Fine-line guilloche (a WebGL rosette in the Home hero, static SVG seals on dividers and dark panels, a wave band above the footer) is the security-paper engraving that makes the paper feel like it holds something of value.\n\nThe ground is white and quiet, the ink is navy, and colour arrives as solid fills with a job: a divider's field, an index tab, a tick mark that means \"prepared\", a flag that means \"needs your judgement\". Density is a reader's density: generous section spacing (5rem, 7rem from md), long measures capped near 60ch, and tables that read like a schedule rather than a dashboard. Motion files things into place; it never performs.\n\nThe world rejects the gradient-blob SaaS hero, dashboard screenshots and icon-card grids. Its version of a feature grid is a ruled index sheet; its version of a hero image is a prepared schedule awaiting review.",
+    "keyCharacteristics": [
+      "White security paper, navy ink, four solid divider inks (green, blue, purple, teal).",
+      "Lettered divider tabs navigate; mono reference codes index every section from the margin.",
+      "Ruled columns, tabular figures, a heavy rule to open and a double rule to close a schedule.",
+      "Single-ink fine-line guilloche as the only ornament.",
+      "Drawn auditor's marks (tick, cast, flag, sign) as the icon grammar.",
+      "Sign-off blocks: \"Prepared by Endloops\" beside \"Reviewed by\" a person."
+    ],
+    "rules": [
+      {
+        "name": "The One Ink, One Job Rule",
+        "body": "Green means prepared, blue means matched or tools, teal means the person, purple means needs judgement. A colour is never borrowed for decoration outside its role or its divider.",
+        "section": "colors"
+      },
+      {
+        "name": "The Solid Fill Rule",
+        "body": "Divider inks appear as flat solid fields, chips and marks. No gradients between inks, no hue sweeps; the hero shader itself runs one solid ink per band (outer green, inner blue).",
+        "section": "colors"
+      },
+      {
+        "name": "The White Ground Rule",
+        "body": "The logo is the supplied JPG on white and appears only on white surfaces (header, footer). It never goes on mist, navy or a divider field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reference Rule",
+        "body": "Mono is only for reference codes and index letters. It never sets sentences, buttons or headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every table and figure list uses tabular, lining numerals so columns of numbers align like a schedule.",
+        "section": "typography"
+      },
+      {
+        "name": "The Margin Reference Rule",
+        "body": "Section references live only in the md+ margin column, never stacked above a heading. On phones there is no margin, so the reference is not shown.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Lift Rule",
+        "body": "A shadow means a sheet lifted off the file. Section containers, ruled grids and divider sheets stay flat; they use a 1px ring or a ground change instead.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do give every new page a divider letter, one of the four inks, and a divider sheet hero.",
+      "Do index sections with mono references in the md+ margin column (7rem), and align following content to the content column.",
+      "Do present comparisons, features and capabilities as ruled rows or hairline-seamed grids with a 2px navy opening rule.",
+      "Do set every figure in tabular numerals and close schedules with a 3px double rule.",
+      "Do use the auditor's marks by meaning: green tick prepared, blue cast matched, purple flag needs judgement, teal sign reviewed.",
+      "Do label every piece of sample data with the Sample pill.",
+      "Do keep guilloche to one ink per figure, hairline stroke, behind content.",
+      "Do start scroll reveals at 30% opacity and use the file ease for all motion."
+    ],
+    "donts": [
+      "Don't use gradient-blob heroes, dashboard screenshots or icon-card grids.",
+      "Don't place a reference code, kicker or eyebrow above a heading; references live only in the margin column.",
+      "Don't blend inks into gradients or hue sweeps, in CSS or in the shader.",
+      "Don't place the logo on anything but white, or redraw, recolour or stretch it.",
+      "Don't show metrics, testimonials, customer names or live/upcoming product labels.",
+      "Don't set sentences, buttons or headings in the mono face.",
+      "Don't use hard offset shadows or put shadows on flat containers; a shadow means a lifted sheet.",
+      "Don't put white text on Logo Green; the green field takes navy ink."
+    ]
+  }
+}
